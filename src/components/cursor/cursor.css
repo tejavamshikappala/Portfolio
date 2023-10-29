@@ -1,0 +1,15 @@
+.cursor{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:1px solid goldenrod;
+    position: fixed;
+    z-index:999
+}
+
+@media screen and (max-width:1025px){
+    .cursor{
+        display: none;
+
+    }
+}
