@@ -44,7 +44,7 @@ const Home = () => {
   <div className="home">
 <div className="home-inside">
   <div className='smallImageContainer'>
-    <motion.img src="/Picture2.png" alt="personImg" className='large-person' initial={{opacity:0 }}
+    <motion.img src="/Portfolio/Picture2.png" alt="personImg" className='large-person' initial={{opacity:0 }}
   animate={{ rotateZ: 360, opacity:1}}
   
   transition={{
@@ -72,7 +72,7 @@ const Home = () => {
     </motion.div>
 
     <div className="imageContainer" >
-    <motion.img src="/Picture2.png" alt="personImg" className='large-person' initial={{ scale: 0 }}
+    <motion.img src="/Portfolio/Picture2.png" alt="personImg" className='large-person' initial={{ scale: 0 }}
   animate={{ rotateZ: 360, scale: 1 }}
   
   transition={{
